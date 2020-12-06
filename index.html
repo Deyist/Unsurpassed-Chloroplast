@@ -1,0 +1,184 @@
+<html>
+        <head>
+            <title>
+                Unsurpassed Chloroplast
+            </title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        </head>
+        
+        <body id ="back" id ="bod">
+            <div id="one">  
+                
+                <div id="two"> 
+                    <h1 id = "apptext">Glucose:</h1>
+                <h1 id="counter" >0</h1> 
+
+                <h1 id = "apptext2">Total Clicks:</h1>
+                <h1 id="counter2" >0</h1> 
+
+
+
+
+                </div>
+               
+
+
+
+
+
+
+
+                </div>
+       <button id = "cplast" ><img src="images/chloro.png" id = "mainplast"></button>   
+       <button id = "cplast2" ><img src="images/tree3.png" id = "plastbut"></button>      
+       <div id="forApp">  </div>
+<link rel="stylesheet" href="styles.css">
+<img src="images/shine.gif" id = "shiney">
+<iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+            </div>
+            <div id="three">  
+                <div id ="four">
+                    <audio id="myAudio" autoplay loop controls>
+    <source src="audio/chlorotheme.mp3" type="audio/mp3">
+</audio>
+                  <h1 id="headSet">Settings</h1>
+                  <h1 id="headMus">Music(Can change volume and it loops)</h1>
+                  <p id = "lessp">This button allows you to go back one question if you would like to try it again for review purposes, or to help you learn the term better.(Spamming it endlessly will bring you back to question one, it does not loop to the end)</p><button id = "less">Go back one question</button>
+                  <p id = "on">This button will turn questions on for you, or if you have them on it will reset your questions. (Resets your total clicks)</p><button id ="on2">Turn questions on or Reset</button>
+                  <p id = "off">This button will turn questions off for you (Turns off your total clicks)</p><button id ="off2">Turn questions off</button>
+                  
+                  <button id="x" onclick="document.getElementById('four').style.display = 'none'; document.getElementById('settings').style.display = 'block';"><input type="image"
+                    id="x_1" src="images/xwithoutBG.png"></button>
+                </div>
+                <div id ="five">
+                    <h1 id="headSet2">Help</h1>
+                    <h1 id="headMus2">Instructions: Click the chloroplast in order to get glucose molecules. Glucose molecules can be used to purchase either parts of the chloroplast or aids in photosynthesis. These fall into two categories, idle clicks, and per clicks. The lower you go, the more expensive it will be, but the more glucose it will provide for you. Idle clicks click for you and give you glucose without you having to do a thing. On the other hand, per clicks give you more glucose every time you click the chloroplast. Your default clicks are 1 glucose per click. You start with no idle clicks as well. The total clicks counter is used to show you when your questions are approaching. The first question starts at 50 clicks. Each question comes after the previous with another 50 clicks to get your question. The 2nd at 100 clicks, 3rd at 150, 4th at 200, and so on until you hit the 32nd question. This question when answered will allow you to win the first part of the game. From this point on you can either choose to continue on to beat the game where you need to get atleast 100 of everything to be considered a winner, or leave because you only came to study. In it's current version of v2.1 the game is ment to be easy with only around 1500 clicks being what you need to win the game. This is strictly to take up less time and for review purposes. Thank you for playing. (Settings has original music if that's what you fancy, p.s only "materials" you need for this game are a functioning computer and the zip file at github.com/deyist/unsurpassed-chloroplast)</h1>
+                    <button id="x2" onclick="document.getElementById('five').style.display = 'none'; document.getElementById('help').style.display = 'block';"><input type="image"
+                      id="x_2" src="images/xwithoutBG.png"></button>
+                </div>
+                    <b><h1 id ="appShop">Organelle Retail n' Parts</h1></b>  
+                    <h1 id="idle">Idle Clicks</h1>  
+
+
+                    <h2 id="Thylakoid">Thylakoids:</h2>
+                    <h2 id="ThylakoidCounter">0</h2>
+                    <button id="addThylakoid1" onclick = "Thylakoid()">+1</button>
+
+
+                    <h2 id="Stroma">Stromas:</h2>
+                    <h2 id="StromaCounter">0</h2>
+                    <button id="addStroma1" onclick = "Stroma()">+1</button>
+
+
+                    <h2 id="granum">Granum:</h2>
+                    <h2 id="granumCounter">0</h2>
+                    <button id="addgranum1" onclick = "granum()">+1</button>
+
+
+                    <h2 id="Lumen">Lumen:</h2>
+                    <h2 id="LumenCounter">0</h2>
+                    <button id="addLumen1" onclick = "Lumen()">+1</button>
+
+
+                    <h2 id="mitochondria">Mitochondria:</h2>
+                    <h2 id="mitochondriaCounter">0</h2>
+                    <button id="addmitochondria1" onclick = "mitochondria()">+1</button>
+
+
+                    <h2 id="flower">Flower:</h2>
+                    <h2 id="flowerCounter">0</h2>
+                    <button id="addflower1" onclick = "flower()">+1</button>
+
+
+                    <h2 id="garden">Garden:</h2>
+                    <h2 id="gardenCounter">0</h2>
+                    <button id="addgarden1" onclick = "garden()">+1</button>
+
+
+                    <h2 id="greenhouse">Greenhouse:</h2>
+                    <h2 id="greenhouseCounter">0</h2>
+                    <button id="addgreenhouse1" onclick = "greenhouse()">+1</button>
+
+
+
+
+
+                    <h1 id="clicks">Per Click</h1>  
+
+
+                    <h2 id="H2O">H20:</h2>
+                    <h2 id="H2Ocounter">0</h2>
+                    <button id="addH2O1" onclick = "H2Of()">+1</button>
+
+
+                    <h2 id="Electrons">Electrons:</h2>
+                    <h2 id="ElectronsCounter">0</h2>
+                    <button id="addElectrons1" onclick = "Electrons()">+1</button>
+
+
+
+                    <h2 id="ATP">ATP:</h2>
+                    <h2 id="ATPCounter">0</h2>
+                    <button id="addATP1" onclick = "ATPfunc()">+1</button>
+
+
+
+
+                    <h2 id="NADPH">NADPH:</h2>
+                    <h2 id="NADPHCounter">0</h2>
+                    <button id="addNADPH1" onclick = "NADPHfunc()">+1</button>
+
+
+
+                    <h2 id="RuBisCO">RuBisCO:</h2>
+                    <h2 id="RuBisCOCounter">0</h2>
+                    <button id="addRuBisCO1" onclick = "RuBisCOfunc()">+1</button>
+
+
+
+                    <button id="settings" onclick="document.getElementById('four').style.display = 'block'; document.getElementById('settings').style.display = 'none';">Settings</button>
+                    <button id="help" onclick="document.getElementById('five').style.display = 'block'; document.getElementById('help').style.display = 'none';">Help</button>
+
+
+
+
+
+
+                </div>  
+
+            <!--  New stuff -->
+                <div id = "six">
+                    <h1 id="headMus3"> </h1>
+                    <h1 id="headSet3"></br>This is where questions will show up for you! (Click X to exit) Click Help if you are stuck. Getting a question incorrect will result in a loss of 1/3 of your glucose. Start by clicking the chloroplast, and then go upgrade!!! Enjoy the game and thankyou for playing!</br></br> P.s. Closing the game will result in a loss of your data and you will be forced to restart.</br></br>	&#169;Alex Mavalyants</h1>
+                    <!--<button type = "button" id = "order">Ordered Mode</button><p id = "porder">(Puts questions in order 1-30 and then stops)</p>
+                    <button type = "button" id = "random">Randomizer</button><p id = "prandom">(Randomizes questions but has endless questions)(May get repeats)</p>-->
+                    <form id = 'fourm'>
+                        <input type="radio" id="q1" name="multiple-choice" value="Correct">
+                        <label for="q1" id = 'w1' class='ws'><p id = 'p1' class = ps> </p></label><br><br><br>
+                        <span class ="checkmark"></span>
+                        <input type="radio" id="q2" name="multiple-choice" value="Incorrect">
+                        <label for="q2"id = 'w2' class='ws'><p id = 'p2' class = ps> </p></label><br><br><br>
+                        <span class ="checkmark"></span>
+                        <input type="radio" id="q3" name="multiple-choice" value="Incorrect">
+                        <label for="q3"id = 'w3' class='ws'><p id = 'p3' class= ps> </p></label><br><br><br>
+                        <span class ="checkmark"></span>
+                        <!--<input type="radio" id="q4" name="multiple-choice" value="Incorrect"></input>
+                        <label for="q4"id = 'w4' class='ws'><p id = 'p4' class = ps> </p></label><br>-->
+
+
+                        <button type="button" id="sub">Submit</button>
+                        <p id ="correct">Correct!</p>
+                        <p id ="incorrect">Incorrect!</p>
+
+                        
+
+                      </form> 
+                    <button id="x3" onclick="document.getElementById('six').style.display = 'none'"><input type="image"
+                      id="x_3" src="images/xwithoutBG.png"></button>
+               </div>       
+                      
+                <script src="script.js"></script>
+        </body>
+</html>

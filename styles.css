@@ -1,0 +1,736 @@
+#cplast{
+width: 0px;
+height: 0px;
+position: absolute;
+left:100px;
+top:120px;
+cursor:pointer;
+background-color:green;
+outline: none;   
+display: block;
+}
+#mainplast{
+height:600px;
+width: 800px;
+position: absolute;
+left:0px;
+top:80px;
+z-index:1
+
+}
+input:focus{
+    outline: none;   
+}
+
+
+#appshop{
+    color:rgb(145, 255, 117);
+}
+#back{
+    background-color:orangered
+   
+}
+#one{
+    border:solid black 5px;
+    position:absolute;
+    width:1000px;
+    height:930px;
+    top:20px;
+    left:10px;
+    background-color: rgb(70, 175, 255);
+}
+#forApp{
+    
+    width:960px;
+    height:830px;
+   z-index:-1
+}
+#two{
+   background-color: rgba(48, 191, 12, 0.72);
+    width:1000px;
+    height:340px;
+    position:absolute;
+    left:0px;
+    top:590px;
+    
+}
+#three{
+    
+    border:solid black 5px;
+    width:870px;
+    background-color:gray;
+    height:950px;
+    position:absolute;
+    right:0px;
+    top:20px;
+    text-align:center;
+    color:white;
+    font-size:30px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    
+}
+#apptext{
+color:white;
+position:absolute;
+top:200px;
+left:200px;
+font-size:45px;
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#apptext2{
+    color:rgb(4, 0, 255);
+    position:absolute;
+    top:270px;
+    left:10px;
+    font-size:30px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    }
+#counter{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color:white;
+    position:absolute;
+    top:200px;
+    left:380px;
+    font-size:45px;
+}
+#counter2{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color:rgb(4, 0, 255);
+    position:absolute;
+    top:270px;
+    left:200px;
+    font-size:30px;
+}
+#myaudio{
+    text-align:center;
+    position:absolute;
+    right:180px;
+    bottom:25px;
+    cursor:pointer;
+}
+#settings{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    
+}
+#help{
+    position:absolute;
+    right:80px;
+    bottom:10px;
+    cursor:pointer;
+}
+#four{
+border: 4px solid black;
+height:900px;
+width:740px;
+position:absolute;
+right:0px;
+bottom:0px;
+background-color:white;
+color:black;
+display:none;
+z-index:1;
+}
+#less{
+    cursor:pointer;
+    background-color:rgb(195, 128, 250);
+    color:rgb(86, 7, 151)
+}
+#lessp{
+    font-size:22px;
+    color:rgb(195, 128, 250);
+}
+#five{
+    border: 4px solid black;
+    height:900px;
+    width:1040px;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    background-color:white;
+    color:black;
+    display:none;
+    z-index: 1;
+    text-align:left;
+    }
+#six{
+    border: 5px solid black;
+    height:600px;
+    width:1040px;
+    position:absolute;
+    right:500px;
+    bottom:200px;
+    background-color:rgb(221, 255, 210);
+    color:black;
+   
+    z-index:1;
+    text-align:left;
+    
+  }
+#headMus{
+    position:absolute;
+    left:75px;
+    bottom:80px;
+font-size:30px;
+align-items:center;
+}
+#headMus2{
+    position:absolute;
+    left:75px;
+    bottom:80px;
+font-size:24px;
+}
+#headMus3{
+    position:absolute;
+    left:75px;
+    bottom:80px;
+font-size:27;
+
+}
+#headSet{
+  text-align:center;
+  color:rgb(86, 7, 151)
+}
+#headSet2{
+    text-align:center;
+  }
+  #headSet3{
+    text-align:center;
+    bottom:200px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color:green;
+    font-weight:bold;
+    
+    
+  }
+#x_1{
+    height:50px;
+    width:60px;
+    position:absolute;
+    left:-10px;
+    top:-10px;
+}
+#x_2{
+    height:50px;
+    width:60px;
+    position:absolute;
+    left:-10px;
+    top:-10px;
+}
+#x_3{
+    height:50px;
+    width:60px;
+    position:absolute;
+    left:-10px;
+    top:-10px;
+}
+#x{
+    position:absolute;
+    left:10px;
+    top:10px;
+
+}
+#x2{
+    position:absolute;
+    left:10px;
+    top:10px;
+
+}
+#x3{
+    position:absolute;
+    left:10px;
+    top:10px;
+    
+
+}
+
+
+
+/*CLICK FOR YOU */
+#idle{
+    position:absolute;
+font-size:40px;
+color:#f0ffba;
+left:80px;
+top:100px;
+}
+#thylakoid{
+position:absolute;
+font-size:30px;
+left:10px;
+top:150px;
+color:rgb(221, 255, 0);
+}
+#thylakoidCounter{
+    position:absolute;
+    font-size:30px;
+    left:180px;
+    top:150px;
+    color:rgb(221, 255, 0);
+    }
+ #addthylakoid1{
+position:absolute;
+font-size:20px;
+left:280px;
+top:182px;
+color:rgb(190, 214, 29);
+cursor:pointer;
+    }
+
+
+
+#stroma{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:250px;
+    color:rgb(177, 238, 10);
+}
+#stromaCounter{
+    position:absolute;
+    font-size:30px;
+    left:145px;
+    top:250px;
+    color:rgb(177, 238, 10);
+}
+#addstroma1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:282px;
+    color:rgb(177, 238, 10);
+    cursor:pointer;
+        }
+
+
+
+#granum{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:350px;
+    color:rgb(136, 255, 0);
+}
+#granumCounter{
+    position:absolute;
+    font-size:30px;
+    left:133px;
+    top:350px;
+    color:rgb(136, 255, 0);
+
+}
+#addgranum1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:382px;
+    color:rgb(136, 255, 0);
+    cursor:pointer;
+
+}
+
+
+
+
+#Lumen{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:450px;
+    color:rgb(50, 252, 0)
+}
+#LumenCounter{
+    position:absolute;
+    font-size:30px;
+    left:115px;
+    top:450px;
+    color:rgb(50, 252, 0)
+
+}
+#addLumen1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:482px;
+    color:rgb(50, 252, 0);
+    cursor:pointer;
+
+}
+
+
+
+
+#mitochondria{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:550px;
+    color:rgb(51, 255, 0);
+}
+#mitochondriaCounter{
+    position:absolute;
+    font-size:30px;
+    left:212px;
+    top:550px;
+    color:rgb(51, 255, 0);
+}
+#addMitochondria1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:582px;
+    color:rgb(51, 255, 0);
+    cursor:pointer;
+
+}
+
+
+
+
+#flower{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:650px;
+    color:rgb(36, 201, 15)
+}
+#flowerCounter{
+    position:absolute;
+    font-size:30px;
+    left:120px;
+    top:650px;
+    color:rgb(36, 201, 15)
+}
+#addflower1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:682px;
+    color:rgb(36, 201, 15);
+    cursor:pointer;
+}
+
+
+
+
+#garden{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:750px;
+    color:rgb(17, 186, 17);
+}
+#gardenCounter{
+    position:absolute;
+    font-size:30px;
+    left:130px;
+    top:750px;
+    color:rgb(17, 186, 17);
+
+}
+#addgarden1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:782px;
+    color:rgb(17, 186, 17);
+    cursor:pointer;
+
+}
+
+
+
+
+#greenhouse{
+    position:absolute;
+    font-size:30px;
+    left:10px;
+    top:850px;
+    color:rgb(88, 213, 72);
+}
+#greenhouseCounter{
+    position:absolute;
+    font-size:30px;
+    left:190px;
+    top:850px;
+    color:rgb(88, 213, 72);
+
+}
+#addgreenhouse1{
+    position:absolute;
+    font-size:20px;
+    left:280px;
+    top:882px;
+    color:rgb(88, 213, 72);
+    cursor:pointer;
+
+}
+
+
+
+
+
+
+
+/* PER CLICK*/
+#clicks{
+    position:absolute;
+    font-size:40px;
+    left:540px;
+    top:100px;
+    color:rgb(204, 255, 121)
+}
+#H2O{
+    position:absolute;
+    font-size:30px;
+    left:420px;
+    top:150px;
+    color:rgb(189, 255, 124);
+}
+#H2Ocounter{
+    position:absolute;
+    font-size:30px;
+    left:500px;
+    top:150px;
+    color:rgb(189, 255, 124);
+}
+#addH2O1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:182px;
+    color:rgb(189, 255, 124);  
+    cursor:pointer;
+    
+}
+
+
+#Electrons{
+    position:absolute;
+    font-size:30px;
+    left:420px;
+    top: 250px;
+    color:rgb(158, 252, 64);  
+}
+#ElectronsCounter{
+    position:absolute;
+    font-size:30px;
+    left:570px;
+    top:250px;
+    color:rgb(158, 252, 64);   
+
+}
+#addElectrons1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:282px;
+    color:rgb(158, 252, 64);  
+    cursor:pointer;
+    
+
+}
+#ATP{
+    position:absolute;
+    font-size:30px;
+    left:420px;
+    top:350px;
+    color:rgb(123, 247, 0);  
+}
+#ATPCounter{
+    position:absolute;
+    font-size:30px;
+    left:500px;
+    top:350px;
+    color:rgb(123, 247, 0);  
+    
+    
+}
+#addATP1{
+      position:absolute;
+    font-size:20px;
+    left:750px;
+    top:382px;
+    color:rgb(123, 247, 0);  
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
+#NADPH{
+    position:absolute;
+    font-size:30px;
+    left:420px;
+    top:450px;
+    color:rgb(0, 247, 0);  
+}
+#NADPHCounter{
+    position:absolute;
+    font-size:30px;
+    left:545px;
+    top:450px;
+    color:rgb(0, 247, 0);  
+    
+    
+}
+#addNADPH1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:482px;
+    color:rgb(0, 247, 0);  
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
+#RuBisCO{
+    position:absolute;
+    font-size:30px;
+    left:420px;
+    top:550px;
+    color:rgb(25, 189, 4);
+}
+#RuBisCOCounter{
+    position:absolute;
+    font-size:30px;
+    left:555px;
+    top:550px;
+    color:rgb(25, 189, 4); 
+    
+    
+}
+#addRuBisCO1{
+    position:absolute;
+    font-size:20px;
+    left:750px;
+    top:582px;
+    color:rgb(25, 189, 4);  
+    cursor:pointer;
+    
+}
+
+
+
+
+#plastbut{
+    display:none;
+    z-index: 2;
+    
+}
+#apple2{
+    display:none;
+    z-index: 2;
+}
+#shiney{
+position: absolute;
+height: 300px;
+width:300px; 
+left:-20px;
+top:-20px;
+}
+
+/* NEW */
+#q1{
+display:none;
+cursor:pointer;
+filter: grayscale(1);
+}
+#q2{
+    display:none;
+    cursor:pointer;
+    filter: grayscale(1);
+}
+#q3{
+    display:none;
+    cursor:pointer;
+    filter: grayscale(1);
+}
+/*
+#q4{
+    display:none;
+    cursor:pointer;
+}*/
+
+#sub{
+    display:none;
+    cursor:pointer;
+}
+#correct{
+    display:none;
+    cursor:pointer;
+    font-size:100px;
+    color:green;
+    font-weight:bold;
+    text-align:center;
+}
+#incorrect{
+    display:none;
+    cursor:pointer;
+    font-size:100px;
+    color:rgb(230, 9, 1);
+    font-weight:bold;
+    text-align:center;
+}
+#p1{
+    display:none;
+    cursor:pointer;
+    color:green;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight:bold;
+    font-size:22px;
+}
+#p2{
+    display:none;
+    cursor:pointer;
+    color:green;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight:bold;
+    font-size:22px;
+}
+#p3{
+    display:none;
+    cursor:pointer;
+    color:green;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight:bold;
+    font-size:22px;
+}
+#p4{
+    display:none;
+    cursor:pointer;
+    color:green;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight:bold;
+    font-size:22px;
+}
+
+#on{
+    color:green;
+}
+#off{
+    color:red;
+}
+#on2{
+    cursor:pointer;
+    color:green;
+    background-color:rgb(188, 253, 225);
+}
+#off2{
+    cursor:pointer;
+    color:red;
+    background-color:rgb(255, 207, 207);
+}
+/*Notes 
+Use hover and a transition property ( plug in numbers ) check email /*
+
